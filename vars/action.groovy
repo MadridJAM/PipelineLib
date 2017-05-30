@@ -4,6 +4,7 @@ def call(String script) {
     return shStdout
   } else {
     echo "Wont run action due configured settings"
+    echo "pull request"
     return "Wont run action due configured settings"
   }
 }
